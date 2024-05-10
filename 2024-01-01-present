@@ -7,3 +7,49 @@ OBJECTIVE: Credential theft/Sign-in session hijacking
 
 -------------------------------------------------------------------------------------
 
+Campaign description: TA is sending phishing emails using different techniques - from malicious HTM/HTML/SHTML files to QR codes in the email's body or in an attached PDF file.
+Emails are leveraging the "Enrollment Benefits" or "HR" themes.
+
+Initial URL -> Cloudflare WAF captcha request -> AiTM
+
+-------------------------------------------------------------------------------------
+
+SENDER IOCs
+joe.patton@sikafx[.]com
+joe.yap@na.linedata[.]com
+kbradley@equitablehousingcp[.]com
+ruben.rodriguez@skillnetinc[.]com
+dpunshon@thelcadaway[.]org
+sports@pad[.]ae
+Dianna.Cody@alpaclass-mail[.]com
+erika.morales@m2ti[.]com
+Dianna@alpaclass-mail[.]com
+Julianna.merrill@lecturelinx[.]com
+jake.balling@zedra[.]com
+tblassey@alcorscientific[.]com
+jpigman@fastsearch1[.]com
+Anthony.Joshua@wilsonclassiccar[.]com
+dstrehle@grovetransportation[.]com
+dana.halsey@metrc[.]com
+annalee.hanson@ulanguage[.]com
+jsales@fullerton-us[.]com
+richard.felton@jk2[.]com
+gandersen@johnrwood[.]com
+lucian.dave@suncrypto[.]in
+justin.hebert@arteakltd[.]co[.]uk
+pparameswaran@avidxchange[.]com
+sparkinson@source1solutions[.]com
+lucian.dave@suncrypto[.]in
+ali@hoacpa[.]com
+n.kaur@bee-inc[.]com
+lhargrove@yoursummit[.]com
+
+
+TTPs
+- “Benefits” and the targeted company name in the email's subject
+- Spoofed header name, eg: Facebook, Google, Tesla..
+- The attachments have .htm, .html or .shtml extensions
+- Malicious QR code in email’s body
+- PDF attachment containing malicious QR code
+
+#stay safe
