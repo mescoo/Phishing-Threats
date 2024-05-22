@@ -1,0 +1,28 @@
+THREAT ACTOR: Unidentified yet
+
+PHISHING KIT: Unidentified yet
+
+OBJECTIVE: Credential theft
+
+-------------------------------------------------------------------------------------
+
+Campaign description: The attacker behind it is leveraging VIPRE's Link Isolation feature to hide malicious domains which are hosting Microsoft credential harvesters.
+The initial URL is delivered via email in different forms, opening a redirector domain, and ultimately sending the user to a credential harvester webpage.
+
+-------------------------------------------------------------------------------------
+
+Sender IOCs
+marc@cbaconsultants[.]net
+dg.ccitm@bellnet[.]ca
+mark.gemkin@bellnet[.]ca
+product@newtus[.]com
+info@alexlineco[.]com
+southpoint@xsj[.]biglobe[.]ne[.]jp
+yumiw6166@mtf[.]biglobe[.]ne[.]jp
+ezison_tabasine@mti[.]biglobe[.]ne[.]jp
+hiroshi.kato@meitetsu-kankobus[.]co[.]jp
+
+TTP:
+- mailanyone.net subdomains in the email's body. [search for *.mailanyone.net]
+
+#stay safe
